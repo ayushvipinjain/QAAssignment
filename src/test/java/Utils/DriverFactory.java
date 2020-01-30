@@ -6,12 +6,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.BeforeTest;
 
 
 public class DriverFactory {
-
-//    private static String Browser = System.getProperty("Browser");
 
     public static WebDriver getDriver(DriverType browser) {
         WebDriver driver = null;
