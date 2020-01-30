@@ -3,7 +3,7 @@
 <suite name="Selenium Test Automation Suite">
     <test name="Automated Tests" verbose="1">
         <classes>
-            <class name="FirstTestSuite"></class>
+            <class name="tw.FirstTestSuite"></class>
         </classes>
     </test>
 </suite>
